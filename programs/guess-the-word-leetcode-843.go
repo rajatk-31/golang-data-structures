@@ -63,6 +63,11 @@ func main() {
  *
  * func (this *Master) Guess(word string) int {}
  */
+type Master struct { //declared only to remmove errors
+}
+
+func (this *Master) Guess(word string) int { return 1 } //declared only to remmove errors
+
 func findSecretWord(wordlist []string, master *Master) {
 	H := make([][]int, len(wordlist))
 	for i := 0; i < len(wordlist); i++ {
