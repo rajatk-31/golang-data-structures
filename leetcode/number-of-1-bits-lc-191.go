@@ -16,3 +16,14 @@ func hammingWeight(num uint32) int {
 
 	return int(count)
 }
+
+// func hammingWeight(num uint32) int {
+//     t := strconv.FormatUint(uint64(num), 2)
+//     count:=0;
+//     for _,v:=range t{
+//         if(v=='1'){
+//             count++;
+//         }
+//     }
+//     return count
+// }
