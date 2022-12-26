@@ -4,6 +4,7 @@ func main() {
 
 }
 
+// Greedy Algo
 func canJump(nums []int) bool {
 	lastGoodIndex := len(nums) - 1
 	for i := lastGoodIndex; i >= 0; i-- {
